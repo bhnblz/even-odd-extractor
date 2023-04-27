@@ -7,4 +7,7 @@ with open("numbers.txt") as main_file, open("even.txt", "a") as even_file, open(
         if int(line) % 2 == 0:
             even_file.write(str(line))
         # If odd
+        else:
+            odd_file.write(str(line))
 # Print the output
+print(numbers)
